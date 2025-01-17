@@ -13,7 +13,7 @@ function App() {
         <Router>
             <div className="main-wrapper">
                 <Routes>
-                    <Route path="/" element={<Navigate to="/dashboard" />} />
+                    <Route path="/" element={<Navigate to="/signin" />} />
                     <Route path="/signup" element={<SignUp />} />
                     <Route path="/signin" element={<SignIn />} />
                     <Route path="/periodictable" element={<PeriodicTable />} />
